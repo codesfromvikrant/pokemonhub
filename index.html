@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Pokemon</title>
+</head>
+
+<body style="background-color: #FFDEE9; background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);">
+  <header class="bg-gray-900 sm:py-1 py-3 px-4 fixed w-full">
+    <div class="container xl:max-w-6xl mx-auto flex justify-between items-center">
+      <div class="logo sm:block hidden">
+        <img src="./images/pokemon_logo.png" class="w-28" alt="">
+      </div>
+
+      <div class="flex justify-center items-center gap-4">
+        <img src="./images/favicon.png" class="w-10" alt="">
+        <h3 class="text-white sm:text-base text-sm font-semibold">Gotta Catch 'Em All</h3>
+      </div>
+    </div>
+  </header>
+
+  <section
+    style="background: linear-gradient(45deg, rgba(2, 159, 138, 0.312), rgba(32, 43, 246, 0.296)),url('./images/cute-real-pokemons-1920x1080.jpg'); background-position: top; background-size: cover; background-attachment: fixed;"
+    class="w-full lg:h-[90vh] md:h-[70vh] h-[60vh] ">
+  </section>
+
+  <h3 class="text-gray-700 pt-20 pb-8 text-center lg:text-3xl md:text-2xl text-xl font-bold tracking-wider">
+    😍 Find Your Favourite Pokemon 😍
+  </h3>
+  <section id="card-container"
+    class="xl:max-w-6xl  xl:mx-auto lg:mx-8 sm:mx-4 mx-8  grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-1 sm:gap-3 gap-6">
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
